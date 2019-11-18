@@ -95,7 +95,7 @@ class Vform extends Component {
 		}
 
 		// checking for inputs with value zero
-		else if (parseInt(this.state.s1) === 0 || parseInt(this.state.s2) === 0 || parseInt(this.state.s3) === 0) {
+		else if (parseFloat(this.state.s1) === 0 || parseFloat(this.state.s2) === 0 || parseFloat(this.state.s3) === 0) {
 			return true;
 		}
 
