@@ -1,0 +1,58 @@
+.App {
+  /*border: 3px solid green;*/
+  height: 100vh;
+}
+
+.logo {
+  height: 90%;
+}
+
+.row {
+  /*border: 1px solid red;*/
+}
+
+.header {
+  height: 80px;
+}
+
+#header-logo {
+  width: calc(100% - 100px)
+}
+
+#header-settings {
+  width: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+.body {
+  height: calc(100% - 80px);
+  overflow: auto;
+}
+
+.tableStyle {
+  overflow: auto;
+  height: 275px;
+}
+
+.col-lg-2, .col-lg-10, .col-lg-12, .col-lg-4 {
+  /*border: 1px solid blue;*/
+}
+
+.settingsIcon {
+  font-size: 40px;
+  line-height: 1.25;
+  float: right;
+}
+
+/*I'm not sure if this is an issue on my side 
+  but when rendering the table, there are two 
+  blocks that appear to the left of the table, 
+  so I simply hid those extraneous (or so I 
+  believe) elements for now 
+*/
+kbd {
+  display: none;
+}

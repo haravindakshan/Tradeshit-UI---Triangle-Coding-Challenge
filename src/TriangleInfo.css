@@ -1,0 +1,18 @@
+#TriangleInfo {
+	text-align: center;
+}
+
+#triangleSVG {
+	transform: rotate(270deg);
+	height: 130px;
+}
+
+#triangleStyling {
+	fill: white;
+	stroke: #25A0EB;
+	stroke-width: 2;
+}
+
+.hide {
+	display: none;
+}
